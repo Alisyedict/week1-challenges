@@ -1,0 +1,23 @@
+// console.log("hello World".trim())
+// generates a number between 0-1 
+//console.log(    Math.round(Math.random()*10)   )
+
+console.log (" | |")
+console.log (" | |")
+console.log (" | |")
+console.log (" | |")
+console.log (" | |")
+console.log (" -------")
+console.log (" | |")
+console.log (" | |")
+console.log (" | |")
+console.log (" | |")
+console.log (" | |")
+console.log (" -------")
+console.log (" | |")
+console.log (" | |")
+console.log (" | |")
+console.log (" | |")
+console.log (" | |")
+console.log (" -------")
+
