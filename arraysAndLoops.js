@@ -1,11 +1,11 @@
-//console.log ("Songs")
-//let favsongs = [
-  //  "Linkin Park - Leave out all the rest ", 
-    //"Post Malone - Rockstar",
-    //"Sia - Chandelier",
+console.log ("Songs")
+let favsongs = [
+    "Linkin Park - Leave out all the rest ", 
+    "Post Malone - Rockstar",
+    "Sia - Chandelier",
 
-   //]
-   //console.log(favsongs.map) (Sia - chandelier)
+   ]
+   console.log(favsongs.map) (Sd)
 
 
   

@@ -1,40 +1,40 @@
 //console.log ("Hello World")
 //
 //____________________1____________________________
-//const favouriteDrinks  = ["DrPepper","Crystal Clear","Peppermint Tea","Cherry Cola","Red Bull"
+//let favouriteDrinks  = ["DrPepper","Crystal Clear","Peppermint Tea","Cherry Cola","Red Bull"
 //];
+//favouriteDrinks.splice(1, 2);
 //console.log(favouriteDrinks);
 
-//let x = Math.Floor((Math.random() * 80) + 1);
-//console.log (x);
+
 
 
 //____________________2____________________________
-//let x = Math.floor((Math.random() * 80) + 1);
-//console.log(x);
+//let randomnum = Math.floor((Math.random() * 80) + 1);
+//console.log(randomnum);
 
 
 
 //____________________3____________________________
 
-//const min = 1;
-//const max = 6;
-//const roll = Math.floor(Math.random() * (max - min + 1)) + min; 
+//let min = 1;
+//let max = 6;
+//let roll = Math.floor(Math.random() * (max - min + 1)) + min; 
 //console.log (`YOU ROLLED A ${roll}`);
 
 //____________________4____________________________
 
-//  const password = "password";
-//  if (password.length < 6) {
- //   console.log ("Password too short")
+ // let password = "password";
+ // if (password.length < 6) {
+  //  console.log ("Password too short")
 //}  else {
- //   console.log (`Password length is ${password.length}. Thanks!!!`);
+  //  console.log (`Password length is ${password.length}. Thanks!!!`);
 //}
 
 //____________________5____________________________
 
-//const bool1 = "true"; 
-//const bool2 = "false";
+//let bool1 = "true"; 
+//let bool2 = "false";
 
 //if (bool1 !== bool2) {
  //   console.log (false);
@@ -45,32 +45,36 @@
 //console.log (false);
 //}
 
-//____________________6____________________________     Didn't understand 
+//____________________6____________________________     
 
-//const num = "15"; 
+// let num = 15; 
 
-//if (num 3 ) {
-//console.log ("fizzbuzz");
-//}
-//elseif{
-//console.log("buzz");
-//}
-
-//elseif{
-//console.log("fizz")
-//}
- 
-
-//else{
-//console.log ("num")
-//}
+// if (num % 3 === 0 && num % 5 === 0 ) {
+// console.log ("fizzbuzz");
+// }
+// else if (num % 3 ===0 )
+// {
+// console.log("fizz");
+// } else if (num % 5 === 0) {
+// console.log("buzz");
+// } else {
+// console.log ("num");
+// }
 
 
 //____________________7____________________________ 
 
-//const num1 = 5; 
 
-//let num2 = Math.Floor (Math.random () * 10 ) + 1;
-//let count = 1; 
 
-//if else (num2) 
+let num1 = 2; 
+let num2 = Math.ceil(Math.random() * 10) + 1; 
+
+let count = 0; 
+
+while (num1 !== num2) {
+  console.log(`Not the same. Random number generated: ${num2}`);
+  num2 = Math.ceil(Math.random() * 10) + 1;
+  count++;
+}
+
+console.log(`Match found after ${count} cycles`);
